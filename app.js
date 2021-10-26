@@ -8,6 +8,7 @@ app.set("view engine", "ejs");
 const homeRoute = require("./routes/home");
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
 
 app.use(homeRoute);
 
