@@ -43,4 +43,15 @@
     margin-right: 7px;
   }
 }
+
+.weatherwidget-io {
+  margin-top: 90px;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 1080px) {
+  .weatherwidget-io {
+    margin-top: 75px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
