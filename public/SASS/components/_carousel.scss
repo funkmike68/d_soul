@@ -1,0 +1,44 @@
+.w-100 {
+  object-fit: cover;
+  width: 100% !important;
+  height: 87.5vh;
+}
+
+#carouselExampleIndicators {
+  margin-top: -2px;
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 1280px) {
+  .w-100 {
+    object-fit: cover;
+    height: 85vh !important;
+  }
+
+  img.responsive {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .w-100 {
+    object-fit: cover;
+    height: 48vh !important;
+  }
+
+  img.responsive {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .w-100 {
+    object-fit: cover;
+    height: 30vh !important;
+  }
+
+  img.responsive {
+    width: 250px;
+  }
+}
